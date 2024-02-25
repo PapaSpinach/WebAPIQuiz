@@ -1,5 +1,37 @@
 header {
     display: flex;
     justify-content: space-between;
-    color: red;
+}
+
+#coding-quiz-challenge {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answer-questions {
+    text-align: center;
+    font-size: 25px;
+    width: 700px;
+}
+
+#start-quiz {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+html {
+    background-color: beige;
 }
