@@ -10,17 +10,19 @@
 
 <body>
     <header>
-        <a href="">View High Scores</a>
-        <span>Time:0</span>
+        <a href="/high-scores.html">View High Scores</a>
+        <span>Time: <span id="time">0</span></span>
     </header>
     <main>
-        <p id="quiz-questions"> Commonly used data types DO Not Include:</p>
-        <button class="quiz-answer" id="strings">1.strings</button>
-        <button class="quiz-answer" id="booleans">2.booleans</button>
-        <button class="quiz-answer" id="alerts">3.alerts</button>
-        <button class="quiz-answer" id="numbers">4.numbers</button>
+        <p id="quiz-questions"></p>
+        <button class="quiz-answer" id="answer-1" onclick="onClickQuizAnswer(0)"></button>
+        <button class="quiz-answer" id="answer-2" onclick="onClickQuizAnswer(1)"></button>
+        <button class="quiz-answer" id="answer-3" onclick="onClickQuizAnswer(2)"></button>
+        <button class="quiz-answer" id="answer-4" onclick="onClickQuizAnswer(3)"></button>
+
+        <p id="judgement"></p>
     </main>
 </body>
-<script src="./javascript.js"></script>
+<script src="./quiz.js"></script>
 
 </html>
