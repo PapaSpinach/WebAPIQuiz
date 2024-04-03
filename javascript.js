@@ -1,3 +1,3 @@
 function startQuiz() {
-    location.href = '/quiz.html';
+    location.href = 'quiz.html';
 }

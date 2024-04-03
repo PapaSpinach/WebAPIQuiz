@@ -123,7 +123,7 @@ function endQuiz() {
     // Save score along with initials in local storage
     saveScoreToLocalStorage(initials);
     // Navigate to high scores page
-    location.href = '/high-scores.html';
+    location.href = 'high-scores.html';
 }
 
 function saveScoreToLocalStorage(initials) {
